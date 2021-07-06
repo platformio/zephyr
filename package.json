@@ -1,0 +1,17 @@
+{
+  "name": "framework-zephyr",
+  "version": "2.20500.210226",
+  "description": "Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures",
+  "keywords": [
+    "framework",
+    "rtos",
+    "hal"
+  ],
+  "homepage": "https://www.zephyrproject.org",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zephyrproject-rtos/zephyr"
+  }
+}
+
