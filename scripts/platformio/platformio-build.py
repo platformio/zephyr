@@ -76,7 +76,7 @@ PLATFORMS_WITH_EXTERNAL_HAL = {
 def get_board_architecture(board_config):
     if board_config.get("build.cpu", "").lower().startswith("cortex"):
         return "arm"
-    elif board_config.get("build.march", "") in ("rv64imac", "rv32imac"):
+    elif board_config.get("build.march", "") in ("rv64imac", "rv32im", "rv32ima", "rv32imac"):
         return "riscv"
     elif board_config.get("build.mcu") == "esp32":
         return "xtensa32"
