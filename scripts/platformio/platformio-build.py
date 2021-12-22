@@ -78,6 +78,7 @@ PLATFORMS_WITH_EXTERNAL_HAL = {
     "nordicnrf52": ["st", "nordic"],
     "nxplpc": ["st", "nxp"],
     "nxpimxrt": ["st", "nxp"],
+    "teensy": ["st", "nxp"],
 }
 
 
