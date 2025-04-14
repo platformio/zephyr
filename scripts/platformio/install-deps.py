@@ -44,6 +44,7 @@ PLATFORMS_WITH_EXTERNAL_HAL = {
     "nxplpc": ["st", "nxp"],
     "nxpimxrt": ["st", "nxp"],
     "teensy": ["st", "nxp"],
+    "gd32": ["st", "gigadevice"],
 }
 
 IGNORED_PACKAGES = {"trusted-firmware-m", "trusted-firmware-a"}

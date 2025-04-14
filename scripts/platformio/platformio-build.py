@@ -64,6 +64,7 @@ PLATFORMS_WITH_EXTERNAL_HAL = {
     "nxplpc": ["st", "nxp"],
     "nxpimxrt": ["st", "nxp"],
     "teensy": ["st", "nxp"],
+    "gd32": ["st", "gigadevice"],
 }
 
 ZEPHYR_ENV_VERSION = "1.0.0"
